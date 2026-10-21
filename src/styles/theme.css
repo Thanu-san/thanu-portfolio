@@ -1,0 +1,11 @@
+/* Colors. Light by default, dark when the device prefers it. */
+:root {
+  --bg: #f4f6f8; --panel: #fff; --line: #d5dbe1; --text: #17202a; --muted: #5c6b7a;
+  --a: #0a8f5b; --b: #2563eb; --c: #c026d3; --d: #d97706;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0b0f14; --panel: #121820; --line: #243040; --text: #e6edf3; --muted: #8b9aab;
+    --a: #3ddc97; --b: #5aa9ff; --c: #e879f9; --d: #fbbf24;
+  }
+}
