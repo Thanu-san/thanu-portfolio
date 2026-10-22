@@ -18,7 +18,7 @@ export default function Hero() {
     <header className="hero">
       <div>
         <div className="tag"><i>$</i> whoami</div>
-        <h1>Hi, I’m <span>Thanu</span>.</h1>
+        <h1>Hi, I’m <span>San SengThanu</span>.</h1>
         <div className="type">{typed}</div>
         <p className="sub">
           Second-year IT student at ISTAD. This portfolio brings together my first-year learning journey, foundational skills, and projects—built one piece at a time.

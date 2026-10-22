@@ -13,7 +13,7 @@ export default function About() {
         {/* Concise personal introduction */}
         <div className="about-bio">
           <p>
-            I’m Thanu, a second-year IT student at ISTAD. This portfolio brings together the skills, projects, and experiences I developed during my first year.
+            I’m San SengThanu, a second-year IT student at ISTAD. This portfolio brings together the skills, projects, and experiences I developed during my first year.
           </p>
           <p>
             Alongside my university studies, I completed the Preuniversity and Foundation Gen 6 courses to strengthen my programming and web development foundations. My learning grew from C++ and web design into Java, React, databases, Linux, and working with APIs.
