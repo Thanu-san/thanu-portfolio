@@ -52,7 +52,7 @@ export default function PuzzleBoard({ shuffleKey }) {
               }}
             >
               <path d={paths[i]} />
-              <text x={S / 2} y={S / 2}>{label}</text>
+              <text x={S / 2} y={S / 2} className={label.length > 8 ? 'long' : ''}>{label}</text>
             </g>
           </g>
         )

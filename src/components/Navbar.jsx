@@ -1,7 +1,7 @@
 export default function Navbar() {
   return (
     <nav>
-      <b>~/your-name</b>
+      <b>~/thanu</b>
       <div>
         <a href="#about">about</a>
         <a href="#projects">projects</a>

@@ -3,7 +3,7 @@ import useTypewriter from '../hooks/useTypewriter'
 import PuzzleBoard from './PuzzleBoard'
 
 export default function Hero() {
-  const typed = useTypewriter('const dev = new Student();  // loading skills...', 55, 10000)
+  const typed = useTypewriter('const thanu = new Student({ year: 2 });  // showcasing year-1 journey...', 50, 10000)
   const [key, setKey] = useState(0)
   const [busy, setBusy] = useState(false)
 
@@ -18,9 +18,11 @@ export default function Hero() {
     <header className="hero">
       <div>
         <div className="tag"><i>$</i> whoami</div>
-        <h1>Hi, I’m <span>Your Name</span>.</h1>
+        <h1>Hi, I’m <span>Thanu</span>.</h1>
         <div className="type">{typed}</div>
-        <p className="sub">IT student who loves solving problems one piece at a time. Every skill, project and bug fixed is a piece of the bigger picture.</p>
+        <p className="sub">
+          Second-year IT student at ISTAD. This portfolio brings together my first-year learning journey, foundational skills, and projects—built one piece at a time.
+        </p>
         <div className="btns">
           <a className="btn fill" href="#projects">View projects</a>
           <button className="btn" onClick={shuffle}>Shuffle puzzle ⟲</button>
