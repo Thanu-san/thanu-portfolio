@@ -3,7 +3,7 @@ import useTypewriter from '../hooks/useTypewriter'
 import PuzzleBoard from './PuzzleBoard'
 
 export default function Hero() {
-  const typed = useTypewriter('const dev = new Student();  // loading skills...')
+  const typed = useTypewriter('const dev = new Student();  // loading skills...', 55, 10000)
   const [key, setKey] = useState(0)
   const [busy, setBusy] = useState(false)
 
