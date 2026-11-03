@@ -25,7 +25,7 @@ export default function Hero() {
         </p>
         <div className="btns">
           <a className="btn fill" href="#projects">View projects</a>
-          <button className="btn" onClick={shuffle}>Shuffle puzzle ⟲</button>
+          <button className="btn" onClick={shuffle}>Shuffle puzzle </button>
         </div>
       </div>
       <div className="stage">
